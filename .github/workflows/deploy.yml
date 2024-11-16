@@ -3,11 +3,11 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - master  # Или main, в зависимости от вашей основной ветки
+      - master
 
 jobs:
   build:
-    runs-on: windows-latest  # Указываем, что job будет выполняться на Windows
+    runs-on: windows-latest 
 
     steps:
       - name: Checkout code
